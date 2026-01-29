@@ -2,46 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Potter Materials | Civil Construction & Utilities</title>
+    <title>Potter Materials | Stone, Concrete & Asphalt Supply</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        :root {
+            --orange: #f57c00;
+            --dark: #1f2a36;
+            --light: #f4f4f4;
+        }
+
         body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
-            background: #f4f4f4;
+            background: var(--light);
             color: #222;
         }
+
         header {
-            background: #1f2a36;
+            background: var(--dark);
             color: #fff;
             padding: 25px;
             text-align: center;
+            border-bottom: 6px solid var(--orange);
         }
+
         header h1 {
             margin: 0;
-            font-size: 32px;
+            font-size: 34px;
             letter-spacing: 1px;
         }
+
         header p {
             margin-top: 8px;
             font-size: 16px;
-            color: #ccc;
+            color: #ddd;
         }
+
         .hero {
-            background: #2f3e4e;
+            background: linear-gradient(135deg, #2a3745, #1f2a36);
             color: #fff;
-            padding: 50px 20px;
+            padding: 55px 20px;
             text-align: center;
         }
+
         .hero h2 {
-            font-size: 36px;
+            font-size: 40px;
             margin-bottom: 10px;
+            color: var(--orange);
         }
+
         .hero p {
-            font-size: 18px;
-            max-width: 800px;
+            font-size: 20px;
+            max-width: 900px;
             margin: auto;
         }
+
         .section {
             padding: 50px 20px;
             max-width: 1100px;
@@ -49,40 +64,71 @@
             background: #fff;
             margin-bottom: 20px;
         }
+
         .section h3 {
-            border-left: 5px solid #c97c1e;
+            border-left: 6px solid var(--orange);
             padding-left: 12px;
-            font-size: 26px;
+            font-size: 28px;
             margin-bottom: 20px;
+            color: var(--dark);
         }
-        .services-grid {
+
+        .materials-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
+            gap: 22px;
         }
-        .service-box {
-            background: #f7f7f7;
-            padding: 20px;
+
+        .material-box {
+            background: #f9f9f9;
+            padding: 25px;
             border: 1px solid #ddd;
+            border-top: 5px solid var(--orange);
         }
-        .service-box h4 {
+
+        .material-box h4 {
             margin-top: 0;
-            color: #1f2a36;
+            color: var(--dark);
+            font-size: 20px;
         }
-        .contact-box {
-            background: #1f2a36;
+
+        .material-box p {
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .cta {
+            background: var(--orange);
             color: #fff;
-            padding: 40px 20px;
+            padding: 50px 20px;
             text-align: center;
         }
-        .contact-box h3 {
-            color: #fff;
-            border: none;
-            padding: 0;
+
+        .cta h3 {
+            font-size: 30px;
+            margin-bottom: 10px;
         }
-        .contact-box p {
-            font-size: 18px;
+
+        .cta p {
+            font-size: 20px;
         }
+
+        .secondary-services {
+            background: #f7f7f7;
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+        .secondary-services h3 {
+            border-left: 6px solid var(--orange);
+            padding-left: 12px;
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: var(--dark);
+        }
+
         footer {
             background: #111;
             color: #aaa;
@@ -96,75 +142,89 @@
 
 <header>
     <h1>Potter Materials</h1>
-    <p>Civil Construction • Utilities • Site Development</p>
+    <p>Aggregate • Concrete • Asphalt • Civil Support</p>
 </header>
 
 <section class="hero">
-    <h2>Reliable Civil & Utility Contractors</h2>
+    <h2>Stone, Concrete & Asphalt You Can Count On</h2>
     <p>
-        Potter Materials provides professional civil construction, utility installation,
-        and site development services across East Tennessee and surrounding areas.
-        We deliver safe, efficient, and cost-effective solutions for public and private projects.
+        Potter Materials is your local source for quality aggregates,
+        concrete support, and asphalt materials for contractors, developers,
+        and property owners across East Tennessee.
     </p>
 </section>
 
 <section class="section">
-    <h3>About Us</h3>
-    <p>
-        Potter Materials is a locally owned civil construction and materials company
-        specializing in underground utilities, earthwork, and infrastructure support.
-        Our team brings hands-on experience, modern equipment, and a commitment to
-        getting the job done right — on time and on budget.
-    </p>
-</section>
+    <h3>Our Core Materials</h3>
+    <div class="materials-grid">
 
-<section class="section">
-    <h3>Our Services</h3>
-    <div class="services-grid">
-        <div class="service-box">
-            <h4>Water & Sewer Utilities</h4>
-            <p>Waterline installation, sewer lines, service taps, hydrants, valves, and testing.</p>
+        <div class="material-box">
+            <h4>Crushed Stone & Aggregate</h4>
+            <p>
+                Base stone, crusher run, #57 stone, #8 stone, rip rap,
+                and custom aggregate blends for driveways, pads,
+                road base, and commercial sites.
+            </p>
         </div>
-        <div class="service-box">
-            <h4>Site Development</h4>
-            <p>Clearing, grading, excavation, pads, and preparation for commercial and residential sites.</p>
+
+        <div class="material-box">
+            <h4>Concrete Supply & Support</h4>
+            <p>
+                Concrete materials and jobsite support for slabs,
+                foundations, footers, sidewalks, and commercial pours.
+                Reliable service for contractors and developers.
+            </p>
         </div>
-        <div class="service-box">
-            <h4>Road & Civil Work</h4>
-            <p>Subgrade, base stone, drainage, and support for roadway and access improvements.</p>
+
+        <div class="material-box">
+            <h4>Asphalt Materials & Support</h4>
+            <p>
+                Asphalt materials and support for paving projects,
+                patching, road work, parking lots, and site access.
+                Built for durability and performance.
+            </p>
         </div>
-        <div class="service-box">
+
+        <div class="material-box">
             <h4>Material Hauling</h4>
-            <p>Aggregate hauling, spoil removal, and jobsite material logistics.</p>
+            <p>
+                Fast, dependable hauling of aggregate, stone,
+                asphalt materials, and spoil removal to keep your
+                job moving on schedule.
+            </p>
         </div>
-        <div class="service-box">
-            <h4>Storm Drainage</h4>
-            <p>Storm pipe, inlets, culverts, and drainage structures.</p>
-        </div>
-        <div class="service-box">
-            <h4>Emergency Utility Repairs</h4>
-            <p>Quick response for water and sewer breaks and emergency excavations.</p>
-        </div>
+
     </div>
+</section>
+
+<section class="cta">
+    <h3>Need Stone, Concrete, or Asphalt?</h3>
+    <p>
+        Call Potter Materials today for pricing and availability.
+        We deliver quality materials on time.
+    </p>
+    <p>
+        Phone: Quarry (423) 201-1413 
+Office (423) 663-5000 <br>
+        Email: pottermaterials@gmail.com
+Address: 1623 Jacksboro Pike, LaFollette, TN
+    </p>
+</section>
+
+<section class="secondary-services">
+    <h3>Additional Services (Secondary)</h3>
+    <p>
+        Underground utilities, site preparation, drainage, and civil
+        support services are available as part of larger projects.
+        These services support our material and site operations.
+    </p>
 </section>
 
 <section class="section">
     <h3>Service Area</h3>
     <p>
-        Based in East Tennessee, serving Claiborne, Campbell, Knox, Union, Scott,
-        Anderson, and surrounding counties.
-    </p>
-</section>
-
-<section class="contact-box">
-    <h3>Contact Potter Materials</h3>
-    <p>
-        Phone: (Add Your Number)<br>
-        Email: (Add Your Email)<br>
-        Serving East Tennessee
-    </p>
-    <p>
-        Call today to discuss your project and request a quote.
+        Serving Claiborne, Campbell, Knox, Union, Scott, Anderson,
+        and surrounding East Tennessee counties.
     </p>
 </section>
 
